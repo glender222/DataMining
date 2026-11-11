@@ -1,0 +1,104 @@
+Idioma detectado: es | Confianza: 1.00
+======================================
+
+Dime. No, la data cruda, así como viene original. Claro, la data cruda, no? Sí, tal cual, ya, no tienes que mover nada ahí.
+
+En el proceso, es tu Datacent donde has aplicado todas tus columnas nuevas, en donde has añadido, de Repente, no, has quitado algunas algunas columnas que por ahí no servían, has transformado algunas Columnas en otras, ya? Y en el Datacent final es lo que va a quedar, no? O sea, al final, si es que te
+
+Quedan con, no sé, tú puedes tener un Datacent original de 20, en el proceso se crearon 26, Pero de esas 26 solamente me quedé con 23 columnas. ¿Qué van a servir a mi modelo predictivo, no? Muy Bien. Acá está la configuración inicial, van a cargar su Datacent y van a ir llenando todo lo que
+
+Les pido, ¿no? Ya, y acá te estoy colocando los puntajes, ya, valores nulos, duplicados, Consistencias y valores inválidos, Ouliers, la transformación y la codificación, ya, toditos Lo que te voy pidiendo. Ya, en otras palabras, se van a llevar el parcial a casa, ya, o sea, ¿quién te da un parcial para la taza? Entonces, ojo, este parcial vale 10 puntos. Profe,
+
+¿y cuáles son los 10 puntos que me falta? Eso va a ser el examen oral, ya, y ya saben la modalidad Del examen oral bajo las tres preguntas, ¿ya? Ahora, ese es uno con respecto al parcial, Hay que completar todo lo que te pido. Recuerden, las tres preguntas, si tú me respondes bien, En la primera pregunta es de 7 a 10 puntos, si tú me respondes en la segunda es de 4 a 6 y si me
+
+Respondes mal, no sé, te vas hasta la tercera pregunta, pues eso vale de 0 a 3 puntos, ¿no? Así que traten de responder en la primera pregunta, por eso ustedes van a tener una Semana para que revisen la notebook, lo resuelvan, si alguien, como les digo, va a resolver esta Notebook o ustedes lo pueden poner en la IA, la IA te vota en la notebook, bacán, no hay problema,
+
+Yo no me molesto si usa SIA, entonces, pero debes saber lo que está votándote la IA o lo que tu Compañero está haciendo, porque si no te va a ir mal en la exposición oral, ¿ya? ¿Alguna duda con Respecto a esta notebook? Ojo, que te estoy pidiendo solo lo que hemos visto en clase, Ya no te estoy pidiendo otra cosa que no hayamos visto en clase, por ejemplo, y esto hay que tener
+
+Mucho cuidado, código correcto sin justificación, no obtiene puntada completa, explicación sin Evidencia de ejecución no tiene puntaje completo, y el dataset original no debe ser modificado Directamente, ya en otras palabras, si solo me presentas un archivo, no vas a tener un puntaje Completo, ¿ya? ¿Alguna duda, chicos?
+
+¿Hasta cuándo era para subir el parcial? Ya, el parcial van a tener hasta el domingo 11 y 59, ya, en otras palabras, este es tu Tique para el examen, ya, no puedes venir al parcial si no has completado esto, Ya, voy a poner dos, uno voy a poner hasta las 11 y 59, y el otro lo voy a abrir el día lunes
+
+A las 9 de la mañana hasta las 6 de la tarde, para los que no llegaron el domingo, ya, ojo que Si no llegaste el domingo, te reviso en base 16. Pero debes subir tres archivos, ¿no? ¿Cuáles serán?
+
+Tienes que subir cuatro, no, espérate, falta uno más que ahorita les voy a presentar, Pero para el parcial solo es necesario cuatro, ¿ya? ¿Cuáles son esos cuatro, profe? Son los tres archivos que son el dataset original, el dataset el proceso y el dataset final, ya,
+
+Y el otro archivo es esto, pues no, la node completa ya con las ejecuciones realizadas, No me pongan código, ponme ya con todas las ejecuciones realizadas, Ya, o sea, no me pongan solo código, sino ponme con todas las ejecuciones realizadas, ya, y a ir, ¿alguna duda?
+
+Sí, profesor, lo que ahorita están mostrando es el parcial, ¿no? Sería como la plantilla Del documento notebook final, ¿verdad? Exacto, la plantilla final, Y lo de data origen, original, data proceso, eso ya nosotros lo estructuramos para presentárselo, O nos guiamos de estas, no es lo final. Este es un archivo aparte.
+
+Allá. O sea, para el parcial son estos tres archivos, mala node, es tu entrada al parcial, Ya, si no tienes eso, no vas a poder rendir el parcial, porque de dónde te voy a preguntar, No voy a tener de dónde preguntarte. Y así que tómeles serio a este documento, Revísenlo bien, este documento ustedes saben que va con nota.
+
+¿Alguna duda más? Es el último parcial Que se lo van a llevar a casa. O sea, tienen toda una semana para que lo revisen, le den doble, Triple, ojeada, ¿no? Profesor, ¿y una vez hará la ruleta para ver quiénes están ese mismo día?
+
+Ese mismo día, la suerte es ese mismo día.
+
+¿Alguna duda más? Y acá van a salir las preguntas orales.
+
+Ya, bueno, entonces, no hay dudas. Vamos a presentar el siguiente documento. Bueno, ustedes Ya lo han presentado antes, ¿no? Bueno, ya se lo he mostrado también antes, Ya lo han resuelto, solamente es cuestión de completarlo, nada más. Ya, está, work.
+
+Ya está. Este documento, de repente se acuerdan, pero ya ustedes ya lo han hecho, ¿no? La parte 1 ya está ok, ya lo tienen. Entonces, ¿qué es lo que van a completar De la parte 2? Compreensión de los datos. Ya, todo lo que hemos trabajado prácticamente.
+
+Si tú tienes varios datasets, origen, ojo, origen, nada más, me vas a crear tres cuadritos, Igual también en Diccionario de Datos, ya. Acá también, ¿no? En el perfilado, pues, Vas a presentar las estadísticas a nivel exploratorio, nada más, de cada variante, ya.
+
+En calidad de sesgos y limitaciones de los datos, lo que hemos venido haciendo en la unidad 2, ¿no? El aspecto, lo que has hallado, qué impacto has tenido y qué acción propuesta, ¿no? Algo que Vas a hacerlo en el futuro. Ya no es una decisión, solo es algo que estás planteando y que se va a
+
+Tomar la decisión en el futuro, ¿no? En la parte de preparación de los datos. Ya, ahora, acá termina Todo lo que es la comprensión de los datos. Ahora viene la preparación de los datos. Acá viene,
+
+Pues, tu limpieza y tratamiento de calidad. Vas a poner todos los problemas que has detectado. Es Algo que ya hemos hecho, solamente volverlo a pasar acá. Vas a poner reglas que has aplicado, La justificación y tu resultado, igual en las transformaciones, ¿no? Todas las variables que
+
+Has transformado. Vas a poner qué parámetros has utilizado y justificación, ya. En ingeniería de Características, vas a poner todas las nuevas variables que has creado, ¿ya? Otra cosa, transformar Es cambiar de una variable original a otra. Pero otra cosa es crear una nueva variable, ¿ya? Acá
+
+Solamente me vas a poner todas las nuevas variables que has creado. De dónde lo has sacado, cuál Fórmula has utilizado, la descripción y por qué lo has creado. Por qué necesita el negocio esa Variable. Acá vas a poner todas las variables con las que te vas a quedar. Acá, más que todo,
+
+Vas a armar un pequeño flujo, una pequeña arquitectura de cómo estás haciendo tu Preparación de los datos, ¿ya? Es más, vas a armar una pequeña arquitectura de las tres fases, ¿no? De la comprensión del negocio, la comprensión de los datos y al final tu Preparación de los datos, ¿ya? Acá, pues vas a completar lo que te pido nada más,
+
+Número de registros en el dataset inicial. Ya no te estoy pidiendo acá el del proceso, Solamente el inicial y el final. Números de variables, cuántos nulos has tenido. Duplicados, Cuántos duplicados has tenido. Y, bueno, acá lo vamos a quitar, ¿ya? Esto lo vamos a quitar.
+
+Ya está. Y acá, pues, en conclusiones vas a poner al mínimo cuatro conclusiones que ustedes, Pues, hayan obtenido o hayan llegado a, bueno, a encontrar con su equipo, ¿no? Ojo, Esto puede ser pregunta no tanto del parcial, sino más de la exposición final. Todos deben Estar de acuerdo a las conclusiones que lleguen, ¿ya? Porque son un equipo, un acuerdo.
+
+Y, finalmente, pues, en anexos vas a incluir partes del código que tú, pues, Necesites reforzar en alguna parte de acá del, de la ficha, ¿ya? Más que todo, Anexos van a salir acá en el 3.5, ¿no? Porque acá tú puedes colocar los fragmentos de código o algo,
+
+Algo que realmente refuerce a lo que estás colocando aquí. Esto es opcional, ¿ya? Para mí, Esto es opcional. Pero si quieres, lo completas. No hay problema. ¿Alguna duda hasta aquí?
+
+¿Dudas que tengan? O sea, este lunes que viene es el parcial, ¿no? Sí, este lunes es el parcial. No, la exposición es el 23.
+
+La exposición es el 23. O sea, el 30 ya no hay nada, ¿ya? No, ya no hay nada. Esta ficha es para el, es para el domingo 22, ya para no saturarlos.
+
+Esta ficha es para el domingo 22. Y la próxima sesión, no, Lo voy a dejar libre. De esta ficha, ustedes van a armar su exposición final, ¿ya? Yo solamente Les voy a dar el tiempo de 15 minutos para que ustedes armen su exposición final para el 23.
+
+Ya, solamente yo te voy a decir lo mínimo que debe tener tu PPT, Que eso te lo voy a decir en la próxima clase. Ya, y si tú quieres, añades más cosas que tengas Aquí en tu ficha. Pero solo tienes 15 minutos para exponer. Ya, eso es para el 23.
+
+Como les dije, hay algunos grupos que se van a sentir aprobados y de repente no hay, ¿cómo les digo? O sea, no va a haber la necesidad de que expongan, ¿no? Si no, Van a decir, profe, ya pa' qué dos puntos. Ahí nomás, ¿no? Gracias. Pero ojo,
+
+Esto no significa que no presentas la ficha. Ya está bien, no expones, pero tienes que Presentarme la ficha. Ya, si no, te bajo puntos en el parcial. Así no hayas expuesto.
+
+¿Alguna duda que tengan? Su momento de preguntar. Ustedes saben que el parcial ya, Yo empiezo a preguntar y ustedes responden. Profesor, solo falta una clase, ¿no? Una
+
+Clase más y ahí queda ya. Ya no, ya, ya no hay más clase.
+
+Solo nos falta el parcial y la exposición final. O sea, el 23 cerramos con ustedes. El 30 es por ahí si hay algún susto o alguien que quiere Recuperar algo, ¿no? Pero ahí vamos a ver, ¿no? La intención es que el 30 cierren todo, ¿no? O sea,
+
+Si por ahí alguien, digo, el 23 cierren todo. Pero si por ahí alguien, no sé, falta Alguna ayuda por ahí, pues hasta el 30 podemos hacer algo. Profesor, ¿se me escucha? Dime. Bueno, esta semana que viene vamos a presentar,
+
+Por lo que tengo entendido, los tres datasets tanto inicial, el proceso y también el final, ¿no? Con ruido. Y eso serían los cuatro, ¿verdad? Sí. Esos cuatro para este lunes que viene.
+
+Este lunes que viene. Para el siguiente lunes sería el PPT y nuestro work, ¿verdad? Con la Presentación, bueno. Claro, el PPT y la ficha, sí, el work. Ok, en cuanto al PPT, bueno,
+
+El parcial. Estos dos puntos son la nota del producto de esta tercera unidad. ¿Cuál? El Parcial y la presentación en conjunto. No, no. No están en conjunto, por eso. El parcial
+
+Que es tu trabajo final, la parte técnica vale 35%. Ahora, la parte funcional que es el work y La PPT vale 10%. Ok. No sé si vale 35 o 25, no me acuerdo bien, pero la cuestión es que vale Un buen porcentaje, ¿no? Que les puede ayudar. ¿Alguna duda más?
+
+¿Alguna duda que tengan? Aún nos quedan 15 minutos. Bueno, es que mi duda es que en el lab aparece que, bueno, ya tenemos calificación de los dos Productos de unidad unidos y solo quedaría de la unidad 3 que sería el 25% y el 10% que es el
+
+Formativo, ¿no? Entonces, ¿ese de la presentación para cuál sería el formativo? La presentación sería el 10%, sí. Es que yo no te puedo evaluar formativo mucho porque estamos En virtual. ¿Cómo te voy a evaluar formativo? Aparte, o sea, ¿cómo te digo, no? La universidad
+
+No es como el colegio, ¿no? El colegio te enseña a formar. Pero ya en la universidad es otra cosa,
+
+¿no? ¿Alguna duda más que tengan respecto a la ficha, a la notebook, a los tres data sets? Así, profe, me había olvidado comentarle. La grabación de la clase de la semana pasada, Eso me parece que a nuestros compañeros no podíamos acceder. No sabría si tendría que
+
+Autorizar o, bueno, hasta que se está grabando también no tendríamos acceso. ¡Qué raro! Siempre se queda en el chat. ¿Alguien más tiene ese problema con la grabación?
+
+Yo, profe, desde la primera clase. ¿Con correo UPU? Sí, profe. Yo le he dicho que no se puede.
+
+¡Qué raro! Yo sí puedo acceder, pero no me deja descargar. No sé si algún compañero aquí le permite descargar.

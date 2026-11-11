@@ -1,0 +1,14 @@
+.venv/
+.ipynb_checkpoints/
+__pycache__/
+datos/
+*.csv
+*.parquet
+*.arrow
+*.feather
+*.zip
+*.rar
+*.url
+*.log
+.ppt_build/
+.chart-data-*/
