@@ -1,26 +1,55 @@
-# Detección de transacciones asociadas al lavado de activos
+# Minería de datos — Detección de lavado de activos (IBM AML)
 
-Proyecto académico de minería de datos. Incluye comprensión del negocio, análisis de calidad y preparación reproducible de IBM AML-Data, además de la ficha y una presentación preliminar.
+## Estructura
 
-## Contenido
-
-- `entrega_parcial/Parcial_Unidad_3_completo.ipynb`: notebook ejecutada. Esta versión pública conserva resultados agregados; se omitieron las salidas con registros individuales.
-- `entrega_parcial/GUIA_EXAMEN_ORAL.md`: explicación de las decisiones y resultados.
-- `entrega_proyecto_final/`: ficha y presentación preliminar.
-- `materiales/`: plantillas, diccionarios, transcripción y notebooks de clase. Las notebooks de clase se incluyen sin sus salidas guardadas.
-
-## Datos y reproducción
-
-Los archivos de datos no están incluidos. Para ejecutar la notebook, consigue `LI-Small_Trans.csv` de [IBM AML-Data](https://github.com/IBM/AML-Data) y coloca una copia sin modificaciones en `entrega_parcial/datos/original.csv`. El archivo empleado por el equipo tiene SHA-256 `f7a9940339c78b5d1476071505b5867c0f5319640b9c4279d13f531bf965319d`.
-
-La notebook crea una entrada con problemas **simulados** y documentados, además de los archivos de proceso y final. El original no se modifica. Para el ejercicio, los parámetros de imputación y del IQR se calcularon sobre todo el conjunto; antes de entrenar un modelo se deben ajustar usando exclusivamente los datos de entrenamiento.
-
-Con Python 3.13:
-
-```bash
-python3 -m venv .venv
-.venv/bin/python -m pip install -r requirements.txt
-./iniciar_jupyter.sh
+```
+DataMining/
+├── datos/                     # NO se sube a git (pesado); se regenera con el notebook
+│   ├── 00_fuente/             # CSV sucio del equipo. Solo lectura: nunca se modifica
+│   ├── 01_original/           # dataset_original.csv  → ventana de trabajo sin cambios
+│   ├── 02_proceso/            # dataset_proceso.csv   → limpieza + transformaciones
+│   └── 03_final/              # dataset_final.csv     → listo para modelar
+├── notebooks/
+│   └── Parcial_Unidad_3_Colab.ipynb   # pipeline de preparación (corre en Colab y en local)
+├── informes/                  # entregables para el docente
+│   ├── Proyecto_final_mineria_datos.docx
+│   └── Presentacion_proyecto_borrador_v2.pptx
+├── logs/                      # salida de cada ejecución (no se sube a git)
+├── materiales/                # material del curso: notebooks de clase, fichas, plantillas
+├── archivo/                   # versiones anteriores, solo para consulta
+│   └── version_duckdb_simulada/
+├── requirements.txt
+└── iniciar_jupyter.sh
 ```
 
-Abre la notebook desde la carpeta `entrega_parcial`. Requiere espacio libre para los CSV generados y los archivos temporales de DuckDB. Algunas notebooks de clase contienen rutas específicas de Colab o de otros servidores y requieren adaptación para ejecutarse localmente.
+## Flujo de los datos
+
+```
+00_fuente ──► 01_original ──► 02_proceso ──► 03_final ──► informes/
+ (sucio)      (ventana 1,02M)   (limpio)      (analítico)
+```
+
+Reglas que seguimos:
+
+1. **La fuente es inmutable.** Nadie edita `00_fuente`; todo se deriva de ahí con código.
+2. **Cada etapa es una carpeta numerada.** El número indica el orden, así se ve qué depende de qué.
+3. **Los datos no van a git, el código sí.** Cualquier dataset se reconstruye corriendo el notebook.
+4. **Lo viejo va a `archivo/`**, no se mezcla con lo vigente.
+
+## Cómo ejecutar
+
+1. Coloca `LI-Small_Trans_sucio.csv` en `datos/00_fuente/`.
+2. Ejecuta el pipeline completo:
+
+```bash
+cd notebooks
+../.venv/bin/jupyter nbconvert --to notebook --execute --inplace Parcial_Unidad_3_Colab.ipynb > ../logs/ejecucion_parcial_unidad_3.log 2>&1
+```
+
+O de forma interactiva con `./iniciar_jupyter.sh` (abre la dirección local que muestre la terminal).
+
+En Colab, el mismo notebook busca el CSV en `MyDrive/MineriaData/` y guarda los resultados en `MyDrive/MineriaData/salida/`.
+
+## Entorno
+
+Python 3.13: `python -m venv .venv && .venv/bin/pip install -r requirements.txt`.
