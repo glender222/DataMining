@@ -13,7 +13,7 @@ DataMining/
 │   └── Parcial_Unidad_3_Colab.ipynb   # pipeline de preparación (corre en Colab y en local)
 ├── informes/                  # entregables para el docente
 │   ├── Proyecto_final_mineria_datos.docx
-│   └── Presentacion_proyecto_borrador_v2.pptx
+│   └── Presentacion_proyecto_v3.pptx
 ├── logs/                      # salida de cada ejecución (no se sube a git)
 ├── materiales/                # material del curso: notebooks de clase, fichas, plantillas
 ├── archivo/                   # versiones anteriores, solo para consulta
